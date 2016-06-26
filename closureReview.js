@@ -1,15 +1,19 @@
 var callFriend = function(){
-  var friend = 'Jake';
   function callF(number){
-    return 'Calling ' + friend + ' at ' + number;
+    return 'Calling ' + firstName + ' ' + lastName + ' at ' + number;
   }
   return callF;
 };
 
-//Above you're given a callFriend function that returns another function. 
+//Above you're given a callFriend function that returns another function.
 //Do what you need to do in order to call your function and get 'Calling Jake at 435-215-9248' in your console.
 
-  //code here
+var directory = [
+  {phoneNumber:8011234567, firstName:'Bill', LastName:'Smith', email:'whocares@gmail.com'},
+  {phoneNumber:8017654321, firstName:'Frank', LastName:'Smit', email:'whocares@gmail.com'},
+  {phoneNumber:4352159248, firstName:'Jake', LastName:'Smithy', email:'whocares@gmail.com'},
+  {phoneNumber:4351234567, firstName:'George', LastName:'Mitch', email:'whocares@gmail.com'}
+];
 
 
 
